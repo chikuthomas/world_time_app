@@ -6,19 +6,19 @@ import 'package:word_time_app/pages/loading.dart';
 
 
 
-void main() => runApp( MaterialApp(
+  void main() => runApp( MaterialApp(
 
-  debugShowCheckedModeBanner: false,
-  
-initialRoute: '/',
-  routes: {
-    '/': (context) => Loading(),
-    '/home' : (context) => Home(),
-    '/location' : (context) => ChooseLocation(),
-  },
+    debugShowCheckedModeBanner: false,
+
+  initialRoute: '/',
+    routes: {
+      '/': (context) => Loading(),
+      '/home' : (context) => Home(),
+      '/location' : (context) => ChooseLocation(),
+    },
 
 
-));
+  ));
 
 
 
